@@ -1,0 +1,15 @@
+{
+  "name": "ionic2-multiloading-popup",
+  "version": "1.0.0",
+  "description": "Contains an Ionic2 loading component that allows multiple things to be loading without displaying a flicker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "ionic-angular": "^2.0.0-rc.5"
+  }
+}
