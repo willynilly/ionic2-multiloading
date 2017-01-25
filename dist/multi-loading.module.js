@@ -15,6 +15,7 @@ var MultiLoadingModule = (function () {
 MultiLoadingModule = __decorate([
     NgModule({
         imports: [IonicModule],
+        providers: [MultiLoadingService],
         exports: [MultiLoadingService]
     })
 ], MultiLoadingModule);
