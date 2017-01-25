@@ -57,6 +57,7 @@ export class MultiLoadingService {
             content: message
         };
         this.loader = this.loadingCtrl.create(options);
+        this.loader.present();
     }
 
     private closeLoading(closeNow: boolean = false): void {

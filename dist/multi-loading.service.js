@@ -58,6 +58,7 @@ var MultiLoadingService = MultiLoadingService_1 = (function () {
             content: message
         };
         this.loader = this.loadingCtrl.create(options);
+        this.loader.present();
     };
     MultiLoadingService.prototype.closeLoading = function (closeNow) {
         var _this = this;
