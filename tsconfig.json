@@ -1,13 +1,18 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "noImplicitAny": true,
-        "removeComments": true,
-        "preserveConstEnums": true,
-        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "declaration": false,
         "emitDecoratorMetadata": true,
-        "outFile": "dist",
-        "sourceMap": true
+        "experimentalDecorators": true,
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "module": "es2015",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "target": "es5",
+        "outDir": "dist"
     },
     "include": [
         "src/**/*"
