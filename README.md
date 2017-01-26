@@ -1,1 +1,1 @@
-# ionic2-multiloading-popup
+# ionic2-multiloading
