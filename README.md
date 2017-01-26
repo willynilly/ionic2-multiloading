@@ -30,12 +30,14 @@ import { MultiLoadingService } from 'ionic2-multiloading';
     ...
 })
 export class MyComponent {
-    constructor(private multiLoadingService: MultiLoadingService)
+    constructor(private multiLoadingService: MultiLoadingService) {
+
+    }
 }
 
 ```
 
-3. Then before you do a request, run:
+3. Then before you do a request in your component, run:
 ```
 loadData() {
     this.multiLoadingService.startLoading('some-data-request-id', 'Loading...');
