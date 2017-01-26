@@ -2,7 +2,7 @@
   "name": "ionic2-multiloading",
   "version": "1.0.0",
   "description": "Contains an Ionic2 loading component that allows multiple things to be loading without displaying a flicker.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --declaration"
