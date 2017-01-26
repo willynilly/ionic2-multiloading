@@ -9,7 +9,7 @@ a flickering effect, where the loading popup quickly opens and closes for each r
 
 1. In your app.module.ts, import the MultiLoadingService and then add it as a provider.
 
-`
+```
 import { MultiLoadingService } from 'ionic2-multiloading';
 
 @NgModule()
@@ -19,11 +19,11 @@ providers: [
     MultiLoadingService
 ]
 
-`
+```
 
 2. Then inject MultiLoadingService into a component.
 
-`
+```
 import { MultiLoadingService } from 'ionic2-multiloading';
 
 @Component({
@@ -33,10 +33,10 @@ export class MyComponent {
     constructor(private multiLoadingService: MultiLoadingService)
 }
 
-`
+```
 
 3. Then before you do a request, run:
-`
+```
 loadData() {
     this.multiLoadingService.startLoading('some-data-request-id', 'Loading...');
     http.get('./someData.json').toPromise().then((resp) => {
@@ -52,5 +52,5 @@ loadData() {
         this.multiLoadingService.stopAllLoading();
     });
 }
-`
+```
 
