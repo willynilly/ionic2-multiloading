@@ -1,6 +1,6 @@
 {
   "name": "ionic2-multiloading",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Contains a service that wraps the Ionic 2 Loading component, allowing multiple requests to be loaded without displaying a flicker.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
